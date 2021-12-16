@@ -2,7 +2,9 @@
 import java.awt.event.KeyEvent;
 
 
-
+/*
+* CREA LA PUBLIC CREAR PARTIDO
+*/
 public class CrearPartido extends javax.swing.JFrame
 {
    
@@ -69,7 +71,9 @@ public class CrearPartido extends javax.swing.JFrame
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
+    /*
+    * AÑADE PARTIDOS A LA LISTA
+    */
     public void añadePartido(String p)
     {
         v.agregarPartido(p);
@@ -88,7 +92,9 @@ public class CrearPartido extends javax.swing.JFrame
         }
     }//GEN-LAST:event_tPartidoKeyPressed
 
-    
+    /*
+    * CREA UNA PUBLICA EN EL PROGRAMA
+    */
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
